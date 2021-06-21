@@ -160,7 +160,7 @@ router.route('/forget/:id').post((req,res)=>{
     });
        
         //link active lam lai
-        const link='http://localhost:5600/changepass/'+ok.token
+        const link='https://thuongtube.tk/changepass/'+ok.token
        
  var mainOptions = { // thiết lập đối tượng, nội dung gửi mail
               from: 'Thuong',
@@ -223,7 +223,7 @@ router.route('/sendactive/:id').post((req,res)=>{
     });
        
         //link active lam lai
-        const link='http://localhost:5600/active/'+ok.token
+        const link='https://thuongtube.tk/active/'+ok.token
        
  var mainOptions = { // thiết lập đối tượng, nội dung gửi mail
               from: 'Thuong',
@@ -287,7 +287,7 @@ router.route('/updateemail/:id').post((req,res)=>{
     });
        
         //link active lam lai
-        const link='http://localhost:5600/changeemail/'+ok.token
+        const link='https://thuongtube.tk/changeemail/'+ok.token
        
  var mainOptions = { // thiết lập đối tượng, nội dung gửi mail
               from: 'Thuong',
@@ -348,7 +348,7 @@ router.route('/checkupdatepass/:id').post((req,res)=>{
     });
        
         //link active lam lai
-        const link='http://localhost:5600/checkupdatepass/'+ok.token
+        const link='https://thuongtube.tk/checkupdatepass/'+ok.token
        
  var mainOptions = { // thiết lập đối tượng, nội dung gửi mail
               from: 'Thuong',
