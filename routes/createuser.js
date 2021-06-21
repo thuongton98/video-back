@@ -10,7 +10,7 @@ router.route('/').get((req, res)=>{
 });
 //add
 router.route('/add').post((req,res)=>{
-    const avatar = 'http://localhost:5000/uploadimg/default.jpg';
+    const avatar = 'https://thuongtube.tk/api/video/uploadimg/default.jpg';
      const username = req.body.username;
     const lname = req.body.lname;
     const fname = req.body.fname;
@@ -84,7 +84,7 @@ router.route('/add').post((req,res)=>{
     });
        
         //link active lam lai
-        const link='http://localhost:5600/active/'+ok.token
+        const link='https://thuongtube.tk/active/'+ok.token
        
  var mainOptions = { // thiết lập đối tượng, nội dung gửi mail
               from: 'Thuong',
